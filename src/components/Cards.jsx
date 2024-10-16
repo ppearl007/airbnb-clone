@@ -8,7 +8,7 @@ const Card = ({ img, title, rating, reviewCount, location, cost }) => {
         <div className="rating--items">
           <img src={star} className="card--star" />
           <span>{rating}</span>
-          <span>({reviewCount}). </span>
+          <span>({reviewCount}) . </span>
           <span>{location}</span>
         </div>
         <p>{title}</p>
