@@ -5,8 +5,9 @@ export default [
     img: "../public/katie-zaferes.png",
     rating: "5.0",
     reviewCount: 10,
-    location: "USA",
+    location: "Online",
     cost: "$136",
+    openSpots: 0,
   },
   {
     id: 2,
@@ -16,6 +17,7 @@ export default [
     reviewCount: 30,
     location: "USA",
     cost: "$125",
+    openSpots: 20,
   },
   {
     id: 3,
@@ -23,7 +25,8 @@ export default [
     img: "../public/mountain-bike.png",
     rating: "4.8",
     reviewCount: 2,
-    location: "USA",
+    location: "Norway",
     cost: "$50",
+    openSpots: 6,
   },
 ];
